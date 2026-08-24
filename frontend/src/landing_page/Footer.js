@@ -4,7 +4,7 @@ function Footer() {
       <div className="container border-top mt-5">
         <div className="row mt-5">
           <div className="col">
-            <img src="media/images/logo.svg" style={{ width: "50%" }} alt="" />
+            <img src="media/images/logo.svg" style={{ width: "50%" }} alt="logo" />
             <p>
               &copy; 2010 - 2024, Not Zerodha Broking Ltd. All rights reserved.
             </p>
@@ -46,139 +46,129 @@ function Footer() {
           </div>
           <div className="col">
             <p>Company</p>
-            <a
-              href=""
+            <p
               className="text-muted pb-2"
-              style={{ textDecoration: "none" }}
+              style={{ textDecoration: "none"}}
             >
               About
-            </a>
+            </p>
             <br />
-            <a
-              href=""
+            <p
               className="text-muted pb-2"
-              style={{ textDecoration: "none" }}
+              style={{ textDecoration: "none"}}
             >
               Products
-            </a>
+            </p>
             <br />
-            <a
-              href=""
+            <p
               className="text-muted pb-2"
-              style={{ textDecoration: "none" }}
+              style={{ textDecoration: "none"}}
             >
               Pricing
-            </a>
+            </p>
             <br />
-            <a
-              href=""
+            <p
               className="text-muted pb-2"
-              style={{ textDecoration: "none" }}
+              style={{ textDecoration: "none"}}
             >
               Referral programme
-            </a>
+            </p>
             <br />
-            <a
-              href=""
+            <p
               className="text-muted pb-2"
-              style={{ textDecoration: "none" }}
+              style={{ textDecoration: "none"}}
             >
               Careers
-            </a>
+            </p>
             <br />
-            <a
-              href=""
+            <p
               className="text-muted pb-2"
-              style={{ textDecoration: "none" }}
+              style={{ textDecoration: "none"}}
             >
               Zerodha.tech
-            </a>
+            </p>
             <br />
-            <a
-              href=""
+            <p
               className="text-muted pb-2"
-              style={{ textDecoration: "none" }}
+              style={{ textDecoration: "none"}}
             >
               Press & media
-            </a>
+            </p>
             <br />
-            <a
-              href=""
+            <p
               className="text-muted pb-2"
-              style={{ textDecoration: "none" }}
+              style={{ textDecoration: "none"}}
             >
               Zerodha cares (CSR)
-            </a>
+            </p>
             <br />
           </div>
           <div className="col">
             <p>Support</p>
-            <a
-              href=""
+            <p
               className="text-muted pb-2"
-              style={{ textDecoration: "none" }}
+              style={{ textDecoration: "none"}}
             >
               Contact
-            </a>
+            </p>
             <br />
-            <a
-              href=""
+            <p
               className="text-muted pb-2"
-              style={{ textDecoration: "none" }}
+              style={{ textDecoration: "none"}}
             >
               Support portal
-            </a>
+            </p>
             <br />
-            <a
-              href=""
+            <p
+              
               className="text-muted mb-5"
-              style={{ textDecoration: "none" }}
+              style={{ textDecoration: "none"}}
             >
               Z-Connect blog
-            </a>
+            </p>
             <br />
-            <a
-              href=""
+            <p
+              
               className="text-muted pb-2"
-              style={{ textDecoration: "none" }}
+              style={{ textDecoration: "none"}}
             >
               List of charges
-            </a>
+            </p>
             <br />
-            <a
-              href=""
+            <p
+              
               className="text-muted pb-2"
-              style={{ textDecoration: "none" }}
+              style={{ textDecoration: "none"}}
             >
               Downloads & resources
-            </a>
+            </p>
             <br />
           </div>
           <div className="col">
             <p>Account</p>
-            <a
-              href=""
+            <p
+              
               className="text-muted pb-4"
-              style={{ textDecoration: "none" }}
+              style={{ textDecoration: "none"}}
             >
               Open an account
-            </a>
+            </p>
             <br />
-            <a
-              href=""
+            <p
+              
               className="text-muted pb-2"
-              style={{ textDecoration: "none" }}
+              style={{ textDecoration: "none"}}
             >
               Fund transfer
-            </a>
+            </p>
             <br />
-            <a
-              href=""
+            <p
+              
               className="text-muted pb-2"
-              style={{ textDecoration: "none" }}
+              style={{ textDecoration: "none"}}
             >
               60 day challenge
-            </a>
+            </p>
             <br />
           </div>
         </div>

@@ -36,34 +36,34 @@ function CreateTicket() {
               <div className="p-3 mb-3">
                 <ul className="list-unstyled">
                   <li style={{ paddingTop: ".9rem" }}>
-                    <a href="#" style={{ textDecoration: "none" }}>
+                    <p style={{ textDecoration: "none" }}>
                       {" "}
                       Resident individual
-                    </a>
+                    </p>
                   </li>
                   <li style={{ paddingTop: ".9rem" }}>
-                    <a href="#" style={{ textDecoration: "none" }}>
+                    <p style={{ textDecoration: "none" }}>
                       {" "}
                       Minor
-                    </a>
+                    </p>
                   </li>
                   <li style={{ paddingTop: ".9rem" }}>
-                    <a href="#" style={{ textDecoration: "none" }}>
+                    <p style={{ textDecoration: "none" }}>
                       {" "}
                       Non Resident Indian (NRI)
-                    </a>
+                    </p>
                   </li>
                   <li style={{ paddingTop: ".9rem" }}>
-                    <a href="#" style={{ textDecoration: "none" }}>
+                    <p style={{ textDecoration: "none" }}>
                       {" "}
                       Company, Patnership, HUF and LLP
-                    </a>
+                    </p>
                   </li>
                   <li style={{ paddingTop: ".9rem" }}>
-                    <a href="#" style={{ textDecoration: "none" }}>
+                    <p style={{ textDecoration: "none" }}>
                       {" "}
                       Glossary
-                    </a>
+                    </p>
                   </li>
                 </ul>
               </div>
@@ -100,34 +100,34 @@ function CreateTicket() {
               <div className="p-3 mb-3">
                 <ul className="list-unstyled">
                   <li style={{ paddingTop: ".9rem" }}>
-                    <a href="#" style={{ textDecoration: "none" }}>
+                    <p style={{ textDecoration: "none" }}>
                       {" "}
                       Your Profile
-                    </a>
+                    </p>
                   </li>
                   <li style={{ paddingTop: ".9rem" }}>
-                    <a href="#" style={{ textDecoration: "none" }}>
+                    <p style={{ textDecoration: "none" }}>
                       {" "}
                       Account modification
-                    </a>
+                    </p>
                   </li>
                   <li style={{ paddingTop: ".9rem" }}>
-                    <a href="#" style={{ textDecoration: "none" }}>
+                    <p style={{ textDecoration: "none" }}>
                       {" "}
                       Client MAster Report (CMR) and Depository Participant(DP)
-                    </a>
+                    </p>
                   </li>
                   <li style={{ paddingTop: ".9rem" }}>
-                    <a href="#" style={{ textDecoration: "none" }}>
+                    <p style={{ textDecoration: "none" }}>
                       {" "}
                       Nomination
-                    </a>
+                    </p>
                   </li>
                   <li style={{ paddingTop: ".9rem" }}>
-                    <a href="#" style={{ textDecoration: "none" }}>
+                    <p style={{ textDecoration: "none" }}>
                       {" "}
                       Transfer and conversion of securities
-                    </a>
+                    </p>
                   </li>
                 </ul>
               </div>
@@ -162,34 +162,34 @@ function CreateTicket() {
               <div className="p-3 mb-3">
                 <ul className="list-unstyled">
                   <li style={{ paddingTop: ".9rem" }}>
-                    <a href="#" style={{ textDecoration: "none" }}>
+                    <p style={{ textDecoration: "none" }}>
                       {" "}
                       IPO
-                    </a>
+                    </p>
                   </li>
                   <li style={{ paddingTop: ".9rem" }}>
-                    <a href="#" style={{ textDecoration: "none" }}>
+                    <p style={{ textDecoration: "none" }}>
                       {" "}
                       Trading FAQs
-                    </a>
+                    </p>
                   </li>
                   <li style={{ paddingTop: ".9rem" }}>
-                    <a href="#" style={{ textDecoration: "none" }}>
+                    <p style={{ textDecoration: "none" }}>
                       {" "}
                       Margin Trading Facility (MTF) and Margins
-                    </a>
+                    </p>
                   </li>
                   <li style={{ paddingTop: ".9rem" }}>
-                    <a href="#" style={{ textDecoration: "none" }}>
+                    <p style={{ textDecoration: "none" }}>
                       {" "}
                       Charts and Orders
-                    </a>
+                    </p>
                   </li>
                   <li style={{ paddingTop: ".9rem" }}>
-                    <a href="#" style={{ textDecoration: "none" }}>
+                    <p style={{ textDecoration: "none" }}>
                       {" "}
                       Alerts and Nudges
-                    </a>
+                    </p>
                   </li>
                 </ul>
               </div>
@@ -224,28 +224,28 @@ function CreateTicket() {
               <div className="p-3 mb-3">
                 <ul className="list-unstyled">
                   <li style={{ paddingTop: ".9rem" }}>
-                    <a href="#" style={{ textDecoration: "none" }}>
+                    <p style={{ textDecoration: "none" }}>
                       {" "}
                       Add Money
-                    </a>
+                    </p>
                   </li>
                   <li style={{ paddingTop: ".9rem" }}>
-                    <a href="#" style={{ textDecoration: "none" }}>
+                    <p style={{ textDecoration: "none" }}>
                       {" "}
                       Withdraw Money
-                    </a>
+                    </p>
                   </li>
                   <li style={{ paddingTop: ".9rem" }}>
-                    <a href="#" style={{ textDecoration: "none" }}>
+                    <p style={{ textDecoration: "none" }}>
                       {" "}
                       Add bank accounts
-                    </a>
+                    </p>
                   </li>
                   <li style={{ paddingTop: ".9rem" }}>
-                    <a href="#" style={{ textDecoration: "none" }}>
+                    <p style={{ textDecoration: "none" }}>
                       {" "}
                       eMandates
-                    </a>
+                    </p>
                   </li>
                 </ul>
               </div>
@@ -280,34 +280,34 @@ function CreateTicket() {
               <div className="p-3 mb-3">
                 <ul className="list-unstyled">
                   <li style={{ paddingTop: ".9rem" }}>
-                    <a href="#" style={{ textDecoration: "none" }}>
+                    <p style={{ textDecoration: "none" }}>
                       {" "}
                       Portfolio
-                    </a>
+                    </p>
                   </li>
                   <li style={{ paddingTop: ".9rem" }}>
-                    <a href="#" style={{ textDecoration: "none" }}>
+                    <p style={{ textDecoration: "none" }}>
                       {" "}
                       Fund Statements
-                    </a>
+                    </p>
                   </li>
                   <li style={{ paddingTop: ".9rem" }}>
-                    <a href="#" style={{ textDecoration: "none" }}>
+                    <p style={{ textDecoration: "none" }}>
                       {" "}
                       Reports
-                    </a>
+                    </p>
                   </li>
                   <li style={{ paddingTop: ".9rem" }}>
-                    <a href="#" style={{ textDecoration: "none" }}>
+                    <p style={{ textDecoration: "none" }}>
                       {" "}
                       Profile
-                    </a>
+                    </p>
                   </li>
                   <li style={{ paddingTop: ".9rem" }}>
-                    <a href="#" style={{ textDecoration: "none" }}>
+                    <p style={{ textDecoration: "none" }}>
                       {" "}
                       Segments
-                    </a>
+                    </p>
                   </li>
                 </ul>
               </div>
@@ -342,36 +342,36 @@ function CreateTicket() {
               <div className="p-3 mb-3">
                 <ul className="list-unstyled">
                   <li style={{ paddingTop: ".9rem" }}>
-                    <a href="#" style={{ textDecoration: "none" }}>
+                    <p style={{ textDecoration: "none" }}>
                       {" "}
                       Mutual Funds
-                    </a>
+                    </p>
                   </li>
                   <li style={{ paddingTop: ".9rem" }}>
-                    <a href="#" style={{ textDecoration: "none" }}>
+                    <p style={{ textDecoration: "none" }}>
                       {" "}
                       National Pension Scheme (NPS)
-                    </a>
+                    </p>
                   </li>
                   <li style={{ paddingTop: ".9rem" }}>
-                    <a href="#" style={{ textDecoration: "none" }}>
+                    <p style={{ textDecoration: "none" }}>
                       {" "}
                       Fixed Deposit (FD)
-                    </a>
+                    </p>
                   </li>
                   <li style={{ paddingTop: ".9rem" }}>
-                    <a href="#" style={{ textDecoration: "none" }}>
+                    <p style={{ textDecoration: "none" }}>
                       {" "}
                       Features on Coin
-                    </a>
+                    </p>
                   </li>
                   <li style={{ paddingTop: ".9rem" }}>
-                    <a href="#" style={{ textDecoration: "none" }}>
+                    <p style={{ textDecoration: "none" }}>
                       {" "}
                       General
-                    </a>
+                    </p>
                   </li>
-                </ul>
+                  </ul>
               </div>
             )}
           </div>
@@ -396,29 +396,29 @@ function CreateTicket() {
             <h1 className="fs-5 p-3 mb-0" style={{backgroundColor:"#F6F6F6"}}>Quick links</h1>
             <ul className="list-group list-group-flush">
               <li class="list-group-item border  p-3 fs-6">
-                <a href="#" class="text-decoration-none">
+                <p class="text-decoration-none">
                   1. Track account opening
-                </a>
+                </p>
               </li>
               <li class="list-group-item border p-3 fs-6">
-                <a href="#" class="text-decoration-none">
+                <p  class="text-decoration-none">
                     2.Track segment activation
-                </a>
+                </p>
             </li>
             <li class="list-group-item border p-3 fs-6">
-                <a href="#" class="text-decoration-none">
+                <p class="text-decoration-none">
                     3. Intraday margins
-                </a>
+                </p>
             </li>
             <li class="list-group-item border p-3 fs-6">
-                <a href="#" class="text-decoration-none">
+                <p class="text-decoration-none">
                     4.Kite user manual
-                </a>
+                </p>
             </li>
             <li class="list-group-item border p-3 fs-6">
-                <a href="#" class="text-decoration-none">
+                <p class="text-decoration-none">
                     5. Learn hot to create a ticket
-                </a>
+                </p>
             </li>
 
             </ul>

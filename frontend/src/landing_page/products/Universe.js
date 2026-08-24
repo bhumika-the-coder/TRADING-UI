@@ -45,9 +45,9 @@ function Universe() {
       <div className="mt-5 mb-5 text-center text-muted">
         <h4 className="fs-5">
           Want to know more about our technology stack? Check out the{" "}
-          <a href="#" style={{ textDecoration: "none" }}>
+          <p style={{ textDecoration: "none" }}>
             Zerodha.tech blog.
-          </a>
+          </p>
         </h4>
       </div>
 

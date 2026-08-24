@@ -33,8 +33,8 @@ function Stats() {
             style={{ width: "95%" }}
           />
           <div className="d-flex flex-column flex-sm-row justify-content-center align-items-center gap-3 mt-3">
-            <a href="" style={{textDecoration:"none"}} className="mx-5">Explore Our Products <i class="fa-solid fa-arrow-right-long" style={{color:" rgb(65, 141, 219)"}}></i></a>
-            <a href="" style={{textDecoration:"none"}} >Try Kite Demo <i class="fa-solid fa-arrow-right-long" style={{color:" rgb(65, 141, 219)"}}></i></a>
+          <p style={{textDecoration:"none"}} className="mx-5">Explore Our Products <i class="fa-solid fa-arrow-right-long" style={{color:" rgb(65, 141, 219)"}}></i></p>
+          <p style={{textDecoration:"none"}} >Try Kite Demo <i class="fa-solid fa-arrow-right-long" style={{color:" rgb(65, 141, 219)"}}></i></p>
           </div>
         </div>
       </div>
