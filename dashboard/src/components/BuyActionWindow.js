@@ -11,7 +11,7 @@ const BuyActionWindow = ({ uid }) => {
   const [stockPrice, setStockPrice] = useState(0.0);
   const { closeBuyWindow } = useContext(GeneralContext);
   const handleBuyClick = () => {
-    axios.post("https://zerodha-ui-clone.onrender.com/newOrder", {
+    axios.post("https://trading-ui-ihfp.onrender.com/newOrder", {
       name: uid,
       qty: stockQuantity,
       price: stockPrice,

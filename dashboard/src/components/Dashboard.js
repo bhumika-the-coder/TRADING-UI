@@ -16,7 +16,7 @@ const Dashboard = () => {
 
   useEffect(() => {
     axios
-      .get("https://zerodha-ui-clone.onrender.com/me", {
+      .get("https://trading-ui-ihfp.onrender.com/me", {
         withCredentials: true,
       })
       .then((res) => {
