@@ -5,7 +5,7 @@ import "./orders.css";
 const Orders = () => {
   const [allOrders,setAllOrders] = useState([]);
     useEffect(() => {
-  axios.get("http://localhost:3002/allOrders")
+  axios.get("https://zerodha-ui-clone.onrender.com/allOrders")
     .then((res) => {
       setAllOrders(res.data);
     });
