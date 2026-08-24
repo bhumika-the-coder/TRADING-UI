@@ -2,47 +2,45 @@
 A full-stack trading dashboard inspired by Zerodha. I built this project to practice React, backend development, authentication, MongoDB, and deployment while working on a real-world style application.
 
 # Live Demo
-Landing & Authentication: https://zerodha-ui-clone-home.vercel.app
-Dashboard: https://zerodha-ui-clone.vercel.app
-Backend: https://zerodha-ui-clone.onrender.com
+Landing & Authentication: https://zerodha-ui-clone-home.vercel.app,
+Dashboard: https://zerodha-ui-clone.vercel.app,
+Backend: https://zerodha-ui-clone.onrender.com,
 # What it includes
-User signup and login
-JWT authentication
-Cookie-based authentication
-User profile/details
-Trading dashboard
-Watchlist
-Holdings
-Positions
-Orders
-MongoDB database
-REST APIs
-Responsive UI
+User signup and login,
+JWT authentication,
+Cookie-based authentication,
+User profile/details,
+Trading dashboard,
+Watchlist,
+Holdings,
+Positions,
+Orders,
+MongoDB database,
+REST APIs,
+Responsive UI,
 
-# Tech Used
-Frontend
-React.js
-JavaScript
-React Router
-Axios
-CSS
+# Frontend
+React.js,
+JavaScript,
+React Router,
+Axios,
+CSS,
 
 # Backend
-
-Node.js
-Express.js
-MongoDB
-Mongoose
-JWT
-bcrypt
-CORS
-Cookie Parser
+Node.js,
+Express.js,
+MongoDB,
+Mongoose,
+JWT,
+bcrypt,
+CORS,
+Cookie Parser,
 
 # Deployment
 
-Vercel — Frontend
-Render — Backend
-MongoDB Atlas — Database
+Vercel —> Frontend,
+Render —> Backend,
+MongoDB Atlas -> Database
 
 # Authentication
 The project uses JWT for authentication.
