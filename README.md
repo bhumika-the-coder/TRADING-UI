@@ -1,4 +1,4 @@
-# zerodha-ui-clone
+# TRADING-UI
 A full-stack trading dashboard inspired by Zerodha. I built this project to practice React, backend development, authentication, MongoDB, and deployment while working on a real-world style application.
 
 # Disclaimer
