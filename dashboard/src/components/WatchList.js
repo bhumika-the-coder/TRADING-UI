@@ -1,6 +1,4 @@
-import React, { useState, useContext } from "react";
-
-import axios from "axios";
+import  { useState, useContext } from "react";
 
 import GeneralContext from "./GeneralContext";
 
