@@ -4,9 +4,9 @@ A full-stack trading dashboard built as an independent educational project to pr
 
 # Live Demo
 
-Landing & Authentication: https://trading-ui-fcn9.vercel.app
-Dashboard: https://trading-ui-three.vercel.app
-Backend: https://trading-ui-ihfp.onrender.com
+- Landing & Authentication: https://trading-ui-fcn9.vercel.app
+- Dashboard: https://trading-ui-three.vercel.app
+- Backend: https://trading-ui-ihfp.onrender.com
 
 # What it includes
 
