@@ -1,6 +1,18 @@
 # zerodha-ui-clone
 A full-stack trading dashboard inspired by Zerodha. I built this project to practice React, backend development, authentication, MongoDB, and deployment while working on a real-world style application.
 
+# Disclaimer
+
+This is an independent educational project created for learning
+and portfolio purposes.
+
+This project is not affiliated with, sponsored by, or endorsed by
+Zerodha / LinkedIn.
+
+All trademarks, logos, and brand names belong to their respective owners.
+
+
+
 # Live Demo
 Landing & Authentication: https://zerodha-ui-clone-home.vercel.app,
 Dashboard: https://zerodha-ui-clone.vercel.app,
