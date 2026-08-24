@@ -1,4 +1,3 @@
-import React from "react";
 function Hero() {
   return (
     <div className="container-fluid border mb-5 p-5" style={{backgroundColor:"#F6F6F6"}}>

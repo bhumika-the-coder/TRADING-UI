@@ -1,4 +1,3 @@
-import React from "react";
 function Tables() {
   return (
     <div className="container mt-5 ">

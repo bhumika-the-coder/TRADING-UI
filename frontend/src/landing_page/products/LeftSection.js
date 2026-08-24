@@ -1,5 +1,3 @@
-import React from "react";
-
 function LeftSection({
   imageURL,
   productName,
@@ -13,7 +11,6 @@ function LeftSection({
     <div className="container">
       <div className="row p-3 p-md-5 align-items-center">
 
-        {/* Image */}
         <div className="col-12 col-md-8 p-2 p-md-3 text-center">
           <img
             src={imageURL}

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import axios from "axios";
 import "./Login.css";
 
@@ -34,7 +34,7 @@ function Login() {
 
       alert("Login successful!");
 
-      window.location.href = "http://localhost:3001";
+      window.location.href = "https://zerodha-ui-clone.vercel.app/";
 
     } catch (err) {
       console.log(err);

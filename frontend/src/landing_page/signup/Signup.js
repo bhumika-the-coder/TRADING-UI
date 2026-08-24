@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import axios from "axios";
 import "./Signup.css";
 
@@ -32,7 +32,7 @@ function Signup() {
 
     alert(res.data.message);
 
-    window.location.href = "http://localhost:3001";
+    window.location.href = "https://zerodha-ui-clone.vercel.app/";
   } catch (err) {
     console.log("FULL ERROR:", err);
     console.log("RESPONSE:", err.response);

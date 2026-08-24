@@ -1,4 +1,3 @@
-import React from "react";
 function RightSection({
     imageURL,
   productName,
@@ -16,7 +15,7 @@ function RightSection({
           </div>
         </div>
         <div className="col-12 col-md-6 p-0 text-center order-1 order-md-2">
-          <img src={imageURL} />
+          <img src={imageURL} alt="img" />
         </div>
       </div>
     </div>

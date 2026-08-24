@@ -1,10 +1,8 @@
-import React from "react";
-
 function Hero() {
   return (
     <div className="container">
 
-      {/* Heading */}
+      
       <div className="row text-center mt-4 mt-md-5 mb-4 mb-md-5 p-3 p-md-5">
         <h2>Charges</h2>
         <h4 className="fs-5 text-muted">
@@ -12,7 +10,7 @@ function Hero() {
         </h4>
       </div>
 
-      {/* Charges */}
+      
       <div className="row text-center">
 
         <div className="col-12 col-md-4 mb-5">
