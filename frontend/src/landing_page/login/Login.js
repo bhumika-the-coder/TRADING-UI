@@ -21,7 +21,7 @@ function Login() {
     e.preventDefault();
 
     try {
-      const res = await axios.post("http://localhost:3002/login", formData,
+      const res = await axios.post("https://zerodha-ui-clone.onrender.com/login", formData,
   {
     withCredentials: true,
   }

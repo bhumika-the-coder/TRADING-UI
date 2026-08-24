@@ -21,7 +21,7 @@ function Signup() {
 
   try {
     const res = await axios.post(
-      "http://localhost:3002/signup",
+      "https://zerodha-ui-clone.onrender.com/signup",
       formData,
       {
         withCredentials: true,
