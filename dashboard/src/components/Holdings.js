@@ -3,9 +3,7 @@ import axios from "axios";
 import { VerticalGraph } from "./VerticalGraph";
 
 const Holdings = () => {
-  const [allHoldings, setAllHoldings] = useState([
-
-  ]);
+  const [allHoldings, setAllHoldings] = useState([]);
 
   useEffect(() => {
     axios.get("http://localhost:3002/allHoldings").then((res) => {
@@ -103,7 +101,7 @@ const Holdings = () => {
           <p>P&L</p>
         </div>
       </div> */}
-      {/* <VerticalGraph data={data} /> */}
+      <VerticalGraph data={data} />
     </>
   );
 };

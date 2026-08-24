@@ -641,6 +641,16 @@ hr {
   position: relative;
 }
 
+.resize-handle {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 5px;
+  height: 100%;
+  cursor: col-resize;
+  z-index: 10;
+}
+
 .search-container {
   display: flex;
   align-items: center;
@@ -840,4 +850,74 @@ hr {
 
 .action:hover {
   background-color: rgb(212, 212, 212);
+}
+
+
+
+@media (max-width: 768px) {
+
+  .watchlist-container {
+    flex-basis: 50%;
+    width: 50%;
+  }
+
+  .content {
+    flex-basis: 50%;
+    width: 50%;
+    padding: 3% 2%;
+  }
+
+  .menu-container {
+    flex-basis: 50%;
+    padding: 10px;
+  }
+
+  .indices-container {
+    flex-basis: 50%;
+    padding: 10px;
+  }
+
+  .menus li {
+    margin-right: 12px;
+  }
+
+  .profile {
+    margin-left: 5px;
+  }
+
+  .profile .username {
+    display: none;
+  }
+
+  .row {
+    gap: 10px;
+  }
+
+  .col h5 {
+    font-size: 1.3rem;
+  }
+
+  .table {
+    padding: 5% 4%;
+  }
+
+  .order-table {
+    overflow-x: auto;
+  }
+
+  .order-table table {
+    min-width: 450px;
+  }
+
+  .watchlist-number {
+    width: 50%;
+  }
+  .data hr{
+    margin-left: 5px;
+  }
+  .second{
+    margin-top: 0 ;
+    margin-left: 5px;
+  }
+
 }

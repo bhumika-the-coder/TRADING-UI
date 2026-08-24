@@ -75,6 +75,7 @@ const WatchList = () => {
 
   return (
     <div className="watchlist-container">
+      <div className="resize-handle"></div>
       <div className="search-container">
         <input
           type="text"
@@ -135,6 +136,9 @@ const WatchListActions = ({ uid }) => {
   const handleBuyClick = () => {
     generalContext.openBuyWindow(uid);
   };
+  const handleSellClick = () => {
+    generalContext.openSellWindow(uid);
+  };
 
   return (
     <span className="actions">
@@ -146,15 +150,16 @@ const WatchListActions = ({ uid }) => {
           TransitionComponent={Grow}
           onClick={handleBuyClick}
         >
-          <button className="buy">Buy</button>
+          <button className="buy">B</button>
         </Tooltip>
         <Tooltip
           title="Sell (S)"
           placement="top"
           arrow
           TransitionComponent={Grow}
+          onClick={handleSellClick}
         >
-          <button className="sell">Sell</button>
+          <button className="sell">S</button>
         </Tooltip>
         <Tooltip
           title="Analytics (A)"

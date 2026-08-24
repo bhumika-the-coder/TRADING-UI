@@ -1,11 +1,13 @@
-require("dotenv").config();
+/* require("dotenv").config();
 const express = require("express");
 const mongoose = require("mongoose");
 const { HoldingsModel } = require("./model/HoldingsModel");
 const {PositionModel} = require("./model/PositionModel")
 const cors = require("cors");
 const bodyPrser = require("body-parser");
-
+const {OrdersModel} = require('./model/OrdersModel')
+const cookieParser = require("cookie-parser");
+const authRoute = require("./routes/AuthRoute");
 
 
 
@@ -182,7 +184,7 @@ app.use(bodyPrser.json());
   });
   res.send("Done!!");
 });  */
-
+/*
 app.get('/allHoldings',async(req,res)=>{
     let allHoldings = await HoldingsModel.find({});
     res.json(allHoldings);
@@ -191,7 +193,103 @@ app.get('/allPositions',async(req,res)=>{
     let allPositions = await PositionModel.find({});
     res.json(allPositions);
 });
-app.listen(PORT, () => {
-  console.log("App started!");
-  mongoose.connect(url);
+
+app.post('/newOrder',async(req,res)=>{
+  let newOrder = new OrdersModel({
+    name:req.body.name,
+    qty:req.body.qty,
+    price:req.body.price,
+    mode: req.body.mode,
+  })
+  newOrder.save();
+  res.send("Orders Saved!");
 });
+
+ app.get("/allOrders", async (req, res) => {
+  const allOrders = await OrdersModel.find({});
+  res.send(allOrders);
+});
+
+app.use(cookieParser());
+
+app.use("/", authRoute);
+mongoose.connect(url)
+  .then(() => {
+    app.listen(PORT, () => {
+      console.log(`App started on ${PORT}`);
+    });
+  })
+  .catch((err) => {
+    console.log("MongoDB connection error:", err);
+  });
+ */
+
+
+require("dotenv").config();
+
+const express = require("express");
+const mongoose = require("mongoose");
+const cors = require("cors");
+const cookieParser = require("cookie-parser");
+
+// Routes
+const holdingsRoute = require("./routes/HoldingsRoute");
+const positionsRoute = require("./routes/PositionsRoute");
+const ordersRoute = require("./routes/OrdersRoute");
+const authRoute = require("./routes/AuthRoute");
+const me = require("./routes/me");
+const PORT = process.env.PORT || 3002;
+const url = process.env.MONGO_URL;
+
+const app = express();
+
+
+// --------------------
+// Middlewares
+// --------------------
+
+app.use(
+  cors({
+    origin: [
+      "http://localhost:3000",
+      "http://localhost:3001",
+    ],
+    credentials: true,
+  })
+);
+
+app.use(express.json());
+
+app.use(cookieParser());
+
+
+// --------------------
+// Routes
+// --------------------
+
+app.use("/", holdingsRoute);
+
+app.use("/", positionsRoute);
+
+app.use("/", ordersRoute);
+
+app.use("/", authRoute);
+app.use("/", me);
+
+
+// --------------------
+// MongoDB + Server
+// --------------------
+
+mongoose
+  .connect(url)
+  .then(() => {
+    console.log("MongoDB connected!");
+
+    app.listen(PORT, () => {
+      console.log(`App started on port ${PORT}`);
+    });
+  })
+  .catch((err) => {
+    console.log("MongoDB connection error:", err);
+  });
