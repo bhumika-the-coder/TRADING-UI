@@ -45,12 +45,12 @@ function Login() {
   return (
     <div className="login-wrapper">
       <div className="login-container">
-        <div className="login-logo">ZERODHA</div>
+        <div className="login-logo">TRADE-UI</div>
 
         <h1>Welcome back</h1>
 
         <p className="login-subtitle">
-          Login to continue to your Zerodha account
+          Login to continue to your TRADE-UI account
         </p>
 
         <form onSubmit={handleSubmit}>

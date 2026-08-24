@@ -1,66 +1,59 @@
 function Universe() {
   const products = [
     {
-      image: "media/images/zerodhaFundhouse.png",
-      alt: "Zerodha Fundhouse",
+      title: "Sample 1",
+      image: "media/images/logo.png",
+      alt: "TradeUI logo",
       description:
-        "Our asset management venture that is creating simple and transparent index funds to help you save for your goals.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae justo vel erat facilisis tincidunt, sed posuere lorem volutpat.",
     },
     {
-      image: "media/images/sensibullLogo.svg",
-      alt: "Sensibull",
+      title: "Sample 2",
+      image: "media/images/logo.png",
+      alt: "TradeUI logo",
       description:
-        "Systematic trading platform that allows you to create and backtest strategies without coding.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo, libero at tincidunt cursus, justo neque volutpat lacus.",
     },
     {
-      image: "media/images/tijori.svg",
-      alt: "Tijori",
+      title: "Sample 3",
+      image: "media/images/logo.png",
+      alt: "TradeUI logo",
       description:
-        "Options trading platform that lets you create strategies, analyze positions, and examine data points like open interest, FII/DII, and more.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae massa vel augue tincidunt consequat. Donec euismod lacus.",
     },
     {
-      image: "media/images/StreakLogo.png",
-      alt: "Streak",
+      title: "Sample 4",
+      image: "media/images/logo.png",
+      alt: "TradeUI logo",
       description:
-        "Thematic investing platform that helps you invest in diversified baskets of stocks or ETFs.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Mauris tincidunt neque vitae consequat interdum.",
     },
     {
-      image: "media/images/smallcaseLogo.png",
-      alt: "Smallcase",
+      title: "Sample 5",
+      image: "media/images/logo.png",
+      alt: "TradeUI logo",
       description:
-        "Investment research platform that offers detailed insights on stocks, sectors, supply chains, and more.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere.",
     },
     {
-      image: "media/images/dittoLogo.png",
-      alt: "Ditto",
+      title: "Sample 6",
+      image: "media/images/logo.png",
+      alt: "TradeUI logo",
       description:
-        "Personalized advice on life and health insurance. No spam and no mis-selling.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae massa vel augue tincidunt consequat, facilisis lorem volutpat.",
     },
   ];
 
   return (
     <div className="container mt-5">
-
-      {/* Technology Stack */}
-      <div className="mt-5 mb-5 text-center text-muted">
-        <h4 className="fs-5">
-          Want to know more about our technology stack? Check out the{" "}
-          <p style={{ textDecoration: "none" }}>
-            Zerodha.tech blog.
-          </p>
-        </h4>
-      </div>
-
-      {/* Heading */}
       <div className="row text-center my-5">
-        <h2>The Zerodha Universe</h2>
+        <h2>The TRADE-UI Universe</h2>
         <p>
-          Extend your trading and investment experience even further with our
-          partner platforms
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Explore
+          various tools and features through a simple interface.
         </p>
       </div>
 
-      {/* Products */}
       <div className="row text-center mt-5">
         {products.map((product, index) => (
           <div
@@ -77,13 +70,14 @@ function Universe() {
               }}
             />
 
+            <h5 className="mt-3">{product.title}</h5>
+
             <p className="mt-3">
               {product.description}
             </p>
           </div>
         ))}
       </div>
-
     </div>
   );
 }

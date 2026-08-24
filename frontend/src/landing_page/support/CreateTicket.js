@@ -88,7 +88,7 @@ function CreateTicket() {
               ></i>
             </div>
             <div className="col p-3 border-bottom ">
-              <h3 className="fs-5">Your Zerodha Account</h3>
+              <h3 className="fs-5">Your TRADE-UI Account</h3>
             </div>
             <div className="col-auto p-3 text-center border-bottom">
               <i
@@ -150,7 +150,7 @@ function CreateTicket() {
               ></i>
             </div>
             <div className="col p-3 border-bottom ">
-              <h3 className="fs-5">Kite </h3>
+              <h3 className="fs-5">Kitty </h3>
             </div>
             <div className="col-auto p-3 text-center border-bottom">
               <i
@@ -330,7 +330,7 @@ function CreateTicket() {
               ></i>
             </div>
             <div className="col p-3 border-bottom ">
-              <h3 className="fs-5">Coin </h3>
+              <h3 className="fs-5">Coil </h3>
             </div>
             <div className="col-auto p-3 text-center border-bottom">
               <i
@@ -362,7 +362,7 @@ function CreateTicket() {
                   <li style={{ paddingTop: ".9rem" }}>
                     <p style={{ textDecoration: "none" }}>
                       {" "}
-                      Features on Coin
+                      Features on Coil
                     </p>
                   </li>
                   <li style={{ paddingTop: ".9rem" }}>
@@ -388,7 +388,7 @@ function CreateTicket() {
             }}
           >
             <ul className="mb-0">
-              <li>Scheduled maintenance downtime for Coin</li>
+              <li>Scheduled maintenance downtime for Coil</li>
               <li>Surveillance measure on scrips - June 2026</li>
             </ul>
           </div>
@@ -407,17 +407,17 @@ function CreateTicket() {
             </li>
             <li class="list-group-item border p-3 fs-6">
                 <p class="text-decoration-none">
-                    3. Intraday margins
+                    3. pintraday margins
                 </p>
             </li>
             <li class="list-group-item border p-3 fs-6">
                 <p class="text-decoration-none">
-                    4.Kite user manual
+                    4.Kitty user manual
                 </p>
             </li>
             <li class="list-group-item border p-3 fs-6">
                 <p class="text-decoration-none">
-                    5. Learn hot to create a ticket
+                    5. Learn how to create a ticket
                 </p>
             </li>
 

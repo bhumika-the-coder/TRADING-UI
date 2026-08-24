@@ -21,7 +21,7 @@ function Signup() {
 
   try {
     const res = await axios.post(
-      "https://zerodha-ui-clone.onrender.com/signup",
+      "https://TRADE-UI-ui-clone.onrender.com/signup",
       formData,
       {
         withCredentials: true,
@@ -32,7 +32,7 @@ function Signup() {
 
     alert(res.data.message);
 
-    window.location.href = "https://zerodha-ui-clone.vercel.app/";
+    window.location.href = "https://TRADE-UI-ui-clone.vercel.app/";
   } catch (err) {
     console.log("FULL ERROR:", err);
     console.log("RESPONSE:", err.response);
@@ -55,7 +55,7 @@ function Signup() {
     <div className="signup-container">
       <h1>Signup</h1>
       <p className="signup-subtitle">
-          Start your investment journey with Zerodha
+          Start your investment journey with TRADE-UI
       </p>
       <form onSubmit={handleSubmit}>
         <div className="signup-input-group">
