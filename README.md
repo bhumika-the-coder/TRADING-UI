@@ -27,7 +27,7 @@ React Router
 Axios
 CSS
 
-#Backend
+# Backend
 
 Node.js
 Express.js
@@ -38,7 +38,7 @@ bcrypt
 CORS
 Cookie Parser
 
-#Deployment
+# Deployment
 
 Vercel — Frontend
 Render — Backend
