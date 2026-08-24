@@ -251,8 +251,8 @@ const app = express();
 app.use(
   cors({
     origin: [
-      "http://localhost:3000",
-      "http://localhost:3001",
+      "https://zerodha-ui-clone-home.vercel.app/",
+      "https://zerodha-ui-clone.vercel.app/",
     ],
     credentials: true,
   })
