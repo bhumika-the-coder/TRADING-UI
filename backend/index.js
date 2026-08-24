@@ -251,8 +251,8 @@ const app = express();
 app.use(
   cors({
     origin: [
-      "https://trading-ui-fcn9.vercel.app/",
-      "https://trading-ui-three.vercel.app/",
+      "https://trading-ui-fcn9.vercel.app",
+      "https://trading-ui-three.vercel.app",
     ],
     credentials: true,
   })
