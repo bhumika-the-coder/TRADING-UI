@@ -21,7 +21,7 @@ function Login() {
     e.preventDefault();
 
     try {
-      const res = await axios.post("https://zerodha-ui-clone.onrender.com/login", formData,
+      const res = await axios.post("https://trading-ui-ihfp.onrender.com/login", formData,
   {
     withCredentials: true,
   }
@@ -34,7 +34,7 @@ function Login() {
 
       alert("Login successful!");
 
-      window.location.href = "https://zerodha-ui-clone.vercel.app/";
+      window.location.href = "https://trading-ui-three.vercel.app/";
 
     } catch (err) {
       console.log(err);

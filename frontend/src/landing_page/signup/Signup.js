@@ -21,7 +21,7 @@ function Signup() {
 
   try {
     const res = await axios.post(
-      "https://TRADE-UI-ui-clone.onrender.com/signup",
+      "https://trading-ui-ihfp.onrender.com/signup",
       formData,
       {
         withCredentials: true,
@@ -32,7 +32,7 @@ function Signup() {
 
     alert(res.data.message);
 
-    window.location.href = "https://TRADE-UI-ui-clone.vercel.app/";
+    window.location.href = "https://trading-ui-three.vercel.app/";
   } catch (err) {
     console.log("FULL ERROR:", err);
     console.log("RESPONSE:", err.response);
